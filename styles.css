@@ -706,17 +706,37 @@ html{
     box-shadow: 12px 12px 0px 0px var(--color-primary);
 }
 
+.item-9:hover {
+    filter: grayscale(0%);
+    transform: scale(1.03);
+    box-shadow: 12px 12px 0px 0px var(--color-primary);
+}
 
 .item-9 {
+    grid-column: 1 / 2;
+    box-shadow: 8px 8px 0px 0px var(--color-primary);
+    background-image: url(img/projeto9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    transition: filter 0.5s ease-in-out, transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
     display: flex;
     flex-direction: column;
-    grid-column: 3 / 4;
+    justify-content: flex-end;
+}
+
+
+.item-10 {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2 / 4; 
     box-shadow: 8px 8px 0px 0px var(--color-primary);  
     min-height: 100vh;
     transition: filter 0.5s ease-in-out, transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
     
 }
-.item-9:hover {
+.item-10:hover {
     filter: grayscale(0%);
     transform: scale(1.03);
     box-shadow: 12px 12px 0px 0px var(--color-primary);
@@ -912,6 +932,8 @@ html{
     .item-6 { grid-column: 2 / 3; }
     .item-7 { grid-column: 1 / 2; }
     .item-8 { grid-column: 2 / 3; }
+    .item-9 { grid-column: 1 / 2; }
+    .item-10 { grid-column: 2 / 3; }    
 
     .contact-container h2{
         position: static;

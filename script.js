@@ -59,6 +59,18 @@ ScrollReveal().reveal('.project-container .grid-item.item-8', {
     distance: '30%' 
 });
 
+ScrollReveal().reveal('.project-container .grid-item.item-9', {
+    origin: 'left',
+    duration: 3000,
+    distance: '30%' 
+});
+ScrollReveal().reveal('.project-container .grid-item.item-10', {
+    origin: 'right',
+    duration: 3000,
+    distance: '30%' 
+});
+
+
 
 
 
